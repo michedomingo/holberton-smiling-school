@@ -21,6 +21,10 @@ header {
     font-size: 10vw;
 }
 
+.fontSize-14 {
+    font-size: 14px;
+}
+
 .fontSize-18 {
     font-size: 18px;
 }
@@ -36,4 +40,17 @@ header {
 .holberton_school-icon-arrow_3,
 .holberton_school-icon-arrow_4 {
   font-size: 5rem;
+}
+
+.arrow-black {
+    color: #000000;
+}
+
+.image-play {
+    margin: -110px 0 40px 85px;
+}
+
+.video {
+    width: 255px;
+    height: 335px;
 }
