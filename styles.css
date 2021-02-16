@@ -37,10 +37,6 @@ header {
     opacity: 0.50;
 }
 
-.textUnderline {
-    position: relative;
-}
-
 .textUnderline:after {
     background-color: #ffffff;
     display: block;
@@ -50,6 +46,12 @@ header {
     height: 3px;
     bottom: 5px;
     border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-pricing:after {
+    width: 55px;
 }
 
 .fontSize-10vw {
