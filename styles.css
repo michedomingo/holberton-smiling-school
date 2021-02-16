@@ -9,6 +9,10 @@ header {
     background-repeat: no-repeat;
 }
 
+.background-black {
+    background-color: #071629;
+}
+
 .background-purple {
     background-color: #c271ff;
 }
