@@ -1,6 +1,10 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.coiny {
+    font-family: 'Coiny';
+}
   
 header {
     background-image: url(images/pic_1.jpg);
@@ -48,6 +52,10 @@ header {
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.ul-courses:after {
+    width: 64px;
 }
 
 .ul-pricing:after {
