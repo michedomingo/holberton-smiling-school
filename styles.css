@@ -17,6 +17,10 @@ header {
     background-color: #071629;
 }
 
+.background-gray {
+    background-color: #979797;
+}
+
 .background-purple {
     background-color: #c271ff;
 }
@@ -27,6 +31,10 @@ header {
 
 .textOpacity-35 {
     opacity: 0.35;
+}
+
+.textOpacity-50 {
+    opacity: 0.50;
 }
 
 .textUnderline {
@@ -48,6 +56,10 @@ header {
     font-size: 10vw;
 }
 
+.fontSize-12 {
+    font-size: 12px;
+}
+
 .fontSize-14 {
     font-size: 14px;
 }
@@ -64,6 +76,10 @@ header {
     font-size: 32px;
 }
 
+.fontSize-44 {
+    font-size: 44px;
+}
+
 .fontSize-60 {
     font-size: 60px;
 }
@@ -75,6 +91,11 @@ header {
 
 .arrow-black {
     color: #000000;
+}
+
+.holberton_school-icon-check {
+    font-size: 30px;
+    color: #82d24f;
 }
 
 .image-play {
