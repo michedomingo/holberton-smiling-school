@@ -21,6 +21,10 @@ header {
     color: #c271ff;
 }
 
+.textOpacity-35 {
+    opacity: 0.35;
+}
+
 .fontSize-10vw {
     font-size: 10vw;
 }
@@ -57,4 +61,9 @@ header {
 .video {
     width: 255px;
     height: 335px;
+}
+
+[class^='holberton_school-icon-ic'] {
+    color: #ffffff;
+    font-size: 30px;
 }
