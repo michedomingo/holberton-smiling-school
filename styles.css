@@ -5,16 +5,24 @@ body {
 .coiny {
     font-family: 'Coiny';
 }
-  
+
 header {
     background-image: url(images/pic_1.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .header-pricing {
     background-image: url(images/pic_2.jpg);
+}
+
+.background-icon {
+    font-size: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top-style: rounded;
+    background-color: #d195ff;
 }
 
 .background-black {
@@ -23,6 +31,10 @@ header {
 
 .background-gray {
     background-color: #979797;
+}
+
+.background-lightPurple {
+    background-color: #d195ff;
 }
 
 .background-purple {
@@ -45,8 +57,6 @@ header {
     background-color: #ffffff;
     display: block;
     content: '';
-    position: absolute;
-    width: 77%;
     height: 3px;
     bottom: 5px;
     border-radius: 3px;
@@ -96,7 +106,7 @@ header {
 
 .holberton_school-icon-arrow_3,
 .holberton_school-icon-arrow_4 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 .arrow-black {
@@ -120,4 +130,28 @@ header {
 [class^='holberton_school-icon-ic'] {
     color: #ffffff;
     font-size: 30px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-spacing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.search-form {
+    height: 50px;
+}
+
+.search-form:focus {
+    background-color: #d195ff;
+}
+
+.search-form::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
 }
